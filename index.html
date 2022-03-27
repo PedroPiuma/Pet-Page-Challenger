@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Pets</title>
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <nav class="nav-bar">
+                <img class="header-logo" src="./assets/img/header-logo.png" alt="">
+                <a class="hamburguer-button" href="#links"><img src="./assets/img/hamburguer-button.png"></a>
+                <div class="links" id="links">
+                    <a class="link" href="#galeria">GALERIA</a>
+                    <a class="link" href="#contato">CONTATO</a>
+                    <a class="link" href="#social">SOCIAL</a>
+                </div>
+            </nav>
+            <div class="header-container">
+                <img class="header-img" src="./assets/img/header-img.png" alt="">
+                <div class="header-content">
+                    <h1 class="header-content-title">Lorem ipsum dolor sit amet</h1>
+                    <p class="header-content-description">consectetur adipiscing elit. Proin nec lacus sem.</p>
+                </div>
+            </div>
+        </header>
+        <section class="galeria" id="galeria">
+            <div class="galeria-linha">
+                <img class="galeria-img" src="./assets/img/photo-one.png" alt="">
+                <img class="galeria-img" src="./assets/img/photo-two.png" alt="">
+                <img class="galeria-img" src="./assets/img/photo-three.png" alt="">
+            </div>
+            <div class="galeria-linha">
+                <img class="galeria-img" src="./assets/img/photo-four.png" alt="">
+                <img class="galeria-img" src="./assets/img/photo-five.png" alt="">
+                <img class="galeria-img" src="./assets/img/photo-six.png" alt="">
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <form class="formulario" action="" method="get">
+                <label class="label" for="name">Nome Completo</label>
+                <input class="input" type="text">
+                <label class="label" for="email">E-mail</label>
+                <input class="input" type="email" name="email" id="email">
+                <label class="label" for="telefone">Telefone</label>
+                <input class="input" type="number" name="telefone" id="telefone">
+                <label class="label" for="mensagem">Mensagem</label>
+                <textarea class="input text-area" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <button class="botao-enviar" type="submit">ENVIAR</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <span id="social">Direitos Reservados. 2021</span>
+    </footer>
+</body>
+
+</html>
