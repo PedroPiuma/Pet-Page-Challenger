@@ -1,2 +1,2 @@
-### Link para acesso ao site: 🐕🐈
+### Link de acesso: 🐕🐈
 https://pet-page-challenger.netlify.app/
