@@ -1,0 +1,97 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login-scope {
+  background-color: rgba(0, 0, 0, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 320px;
+  background-color: #040404;
+  border: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #403423;
+}
+
+.logo-login {
+  width: 102px;
+  height: 101px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px 40px 25px;
+}
+
+.label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #ffd18d;
+  margin-bottom: 7px;
+}
+
+.input {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 270px;
+  height: 30px;
+  margin-bottom: 15px;
+  padding: 0px 20px;
+}
+
+.formulario .input:focus {
+  outline: none;
+  border: 1px solid #bf9d69;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-end;
+  gap: 52px;
+  padding: 20px 26px;
+}
+
+.hamburguer-close {
+  width: 32px;
+  height: 32px;
+}
+
+.botao {
+  margin-top: 13px;
+  background-color: #bf9d69;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.06px;
+  width: 270px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.botao:hover {
+  background-color: #403423;
+}

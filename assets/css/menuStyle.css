@@ -1,0 +1,57 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  background-color: black;
+}
+
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-scope {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 360px;
+}
+
+.header-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 11px 30px 26px 30px;
+  align-items: center;
+}
+
+.hamburguer-close {
+  width: 32px;
+  height: 32px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding-top: 37px;
+  padding-bottom: 187px;
+}
+
+.links {
+  font-size: 36px;
+  line-height: 42.19px;
+  font-weight: 700;
+  color: #ffd18d;
+  text-align: center;
+}
