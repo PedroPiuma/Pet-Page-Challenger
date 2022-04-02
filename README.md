@@ -1,2 +1,2 @@
 ### Link de acesso: 🐕🐈
-https://pet-page-challenger.netlify.app/
+ https://pedropiuma.github.io/Pet-Page-Challenger/
